@@ -1,4 +1,4 @@
-# face-recognation
+# face-recognition
 import cv2
 import time
 
