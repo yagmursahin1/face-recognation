@@ -32,17 +32,6 @@ while True:
     cv2.putText(frame, f'Time: {elapsed_time:.2f} s', (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 4)
     
 
-        
-      
-    '''
-    now=datetime.datetime.now()
-    #start = time.time()
-    dt_string=now.strftime("%d/%m/%S")
-    #converted_start=str(start)
-
-    cv2.putText(frame,dt_string,(20,30),cv2.FONT_HERSHEY_DUPLEX,1,(0,0,255,3))
-    '''
-
     cv2.imshow("frame",frame)
 
     if cv2.waitKey(10) == 27:
